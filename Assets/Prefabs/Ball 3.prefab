@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 3106699396651729423}
   - component: {fileID: 9044694402799757730}
   - component: {fileID: 3944407299381706216}
+  - component: {fileID: 1926781135038589705}
+  - component: {fileID: 6206355561193151631}
+  - component: {fileID: 5459015531901478516}
   m_Layer: 0
   m_Name: Ball 3
   m_TagString: Untagged
@@ -105,3 +108,42 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1926781135038589705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000889137074816638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1829c46b7d0a71c4b8f3dcdd8a109092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+--- !u!114 &6206355561193151631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000889137074816638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650563d9555881f4396752b645c500a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftBound: -35
+  bottomBound: 0
+--- !u!114 &5459015531901478516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000889137074816638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a6fd4e7c03b544aadfadfdad4f278b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
